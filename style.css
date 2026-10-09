@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+    overflow:auto;
+}
+
+body{
+    background-color: #2aac1b;
+    font-family: Verdana, arial, Tahoma, sans-serif;
+    margin: 0;
+    display: float-root;
+}
+
+header{
+    background-color: #2aac1b;
+    font-family: Verdana, arial, Tahoma, sans-serif;
+    border: 20px solid #2aac1b;
+    width: 100%;
+    position:sticky;
+    top:0;
+}
+
+main{
+    margin-left:auto;
+    margin-right:auto;
+    background-color: #60c65c;
+    font-family: Verdana, arial, Tahoma, sans-serif;
+    border: 20px solid #60c65c;
+}
+
+footer{
+    background-color: #2aac1b;
+    font-family: Verdana, arial, Tahoma, sans-serif;
+    border: 20px solid #2aac1b;
+}
+
+p{
+    color: black;
+    font-family: Verdana, arial, Tahoma, sans-serif;
+}
+
+pre{
+    color: black;
+    font-family: Verdana, arial, Tahoma, sans-serif;
+}
+
+h1{
+    color: black;
+    font-family: Verdana, arial, Tahoma, sans-serif;
+}  
+h2{
+    color: black;
+    font-family: Verdana, arial, Tahoma, sans-serif;
+}
+h3{
+    color: black;
+    font-family: Verdana, arial, Tahoma, sans-serif;
+}
+h4{
+    color: black;
+    font-family: Verdana, arial, Tahoma, sans-serif;
+}
+h5{
+    color: black;
+    font-family: Verdana, arial, Tahoma, sans-serif;
+}
+
+#portfolioTitle{
+    color: black;
+    font-family: Verdana, arial, Tahoma, sans-serif;
+    text-align: center;
+}
+
+
+.navbar{
+    color: black;
+    background-color: #35932a;
+    font-family: Verdana, arial, Tahoma, sans-serif;
+    border: 1px solid black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    overflow:hidden;
+    position:relative;
+    left:31%;
+}
+
+
+#Homebutton {
+    background-color: hsl(118, 22%, 47%);
+    color: black;
+    border: 2px solid black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#Homebutton:hover {
+    background-color: hsl(110, 5%, 40%);
+}
+
+#Homebutton:active {
+    background-color: #95e893;
+}
+#Homebutton.current-page {
+background-color: #95e893;
+color: black;
+border: 3px solid black;
+font-weight: bold;
+box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+cursor: default;
+}
+
+
+
+#whoamiBox{
+    width:auto;
+    height:auto;
+    background-color: #5ec05b;
+    font-family: Verdana, arial, Tahoma, sans-serif;
+    margin: 50px;
+}
+
+#pfp{
+    float: right;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+#tableTitle{
+    text-align: center;
+    font-weight: bold;
+}
+#centerTable{
+    margin:auto;
+}
+
+.pagination{
+    text-align: center;
+}
+.pagination a{
+    color:black;
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block;
+}
+.pagination a.Active{
+    background-color: #4a9e47;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.pagination a:hover:not(.Active){
+    background-color: #adc4ac;
+    border-radius: 5px;
+}
+
+
+.blog-post{
+    background-color: #3f863d;
+    font-family: Verdana, arial, Tahoma, sans-serif;
+    border: 2px solid #1b4c1a;
+    margin: 50px;
+    padding: 20px;
+}
+.blog-thumbnail{
+    width: 300px;
+    height: 250px;
+    alt: "Blog Thumbnail";
+    margin: 0 0 15px 20px;
+    float: right;
+    object-fit: cover;
+}
+
+.project{
+    background-color: #3f863d;
+    font-family: Verdana, arial, Tahoma, sans-serif;
+    border: 2px solid #1b4c1a;
+    margin: 50px;
+    padding: 20px;
+}
+.project-thumbnail {
+width: 300px;
+height: 250px;
+float: right;
+margin: 0 0 15px 20px;
+object-fit: cover;
+display: block;
+}
